@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+img {
+    vertical-align: middle;
+   } 
+    table {
+        background-color:#cfdfda;
+        width: 100%;
+        max-width: 600px;
+        margin:0 auto;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        padding-bottom:10px;    
+    }
+    .full-width {
+        width: 100%;
+    }
+    body {
+        background-color:#cfdfda; 
+        text-align:center;
+    }
+    .kasamaimage {
+        margin-bottom: 65px;
+
+    }
+    .background-color-green {
+        background-color:#cfdfda;
+        line-height: 2.5;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-bottom: 50px;
+    }
+    .background-color-brown {
+        background-color:#5b2812;
+        margin-bottom: 50px;
+        padding-top: 2px;
+        padding-bottom: 5px;
+    }
+
+    @font-face {
+        font-family: "Bubble Love";
+        src: url("../fonts/Bubble\ Love\ Demo.otf") format("opentype");
+    }
+    @font-face {
+        font-family: "Sansita ExtraBold";
+        font-weight: 800;
+        src: url("../fonts/Sansita-ExtraBold.ttf") format("truetype");
+    }
+    h1 {
+        font-family: "Bubble Love";
+        margin-bottom: 20px;
+        font-size: 35px;
+    }
+    h2, h3 {
+        font-family:"Bubble Love";
+        font-size: 35px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        text-align:center;
+        line-height: 1.5;
+    }
+    h3 {
+        font-family:"Bubble Love";
+        font-size: 35px;
+        width:100%; 
+        text-align:center;
+    }
+    h4, h5, h6 {
+        font-weight:bold;
+        display: inline;
+    }
+    h4 {
+        font-family: "Sansita ExtraBold";
+        font-size: 20px;
+    }
+    h1, h2, h3 h4 {
+        text-align: center;
+    }
+    h5 {
+        font-family:"Bubble Love";
+    }
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin: 40px auto;
+    }
+    .background-color {
+        background-color: #Cc5037;
+    }
+    .button-container {
+        text-align: center;
+        width: calc(50%-30px);
+        display:flex;
+        margin-bottom: 20px; 
+        margin: 5px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+     .button {
+        display:inline-block;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding:15px 30px;
+        color: white;
+        font-family:"Bubble Love";
+        text-align:center;
+        text-decoration:none;
+        font-size:20px;
+        margin:5px 10px;
+        margin-bottom: 25px;
+        cursor:pointer;
+        border:none;
+        border-radius:8px;
+    }
+    .button:hover {
+        opacity:0.8;
+    }
+    .social-icons {
+        padding: 30px;
+        margin: 0 auto;
+        text-align:center;
+        width: 100%;
+        justify-content: space-between;
+        background-color: #Cc5037;
+    }
+    .creativecommons {
+        display: inline-block; 
+        text-align: center;
+    
+    }
+    footer {
+        background-color: #Cc5037;
+        padding: 20px; 
+        text-align: center;
+        margin-top: 50px;
+    }   
